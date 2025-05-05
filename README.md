@@ -34,9 +34,7 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=student_portal
-PORT=3000
 
 4. Run the server
 node src/app.js
-All endpoints will be available under http://localhost:3000/api/...
 
