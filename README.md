@@ -22,3 +22,21 @@ A simple RESTful CRUD API for managing students, courses, and enrollments.
 4. Run the SQL script: `mysql -u user -p < schema.sql`  
 5. `npm start`  
 
+## Setup & Configuration
+1. Clone this repo
+
+2. Install dependencies
+npm install
+
+3. Configure your MySQL creds in a .env file at project root:
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_password
+DB_NAME=student_portal
+PORT=3000
+
+4. Run the server
+node src/app.js
+All endpoints will be available under http://localhost:3000/api/...
+
